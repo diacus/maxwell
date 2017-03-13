@@ -21,6 +21,14 @@
 
 <body <?php body_class(); ?>>
 
+  <div id="logo" class="site-branding clearfix">
+
+    <?php maxwell_site_logo(); ?>
+    <?php maxwell_site_title(); ?>
+    <?php maxwell_site_description(); ?>
+
+  </div><!-- .site-branding -->
+
 	<?php do_action( 'maxwell_header_bar' ); ?>
 
 	<div id="page" class="hfeed site">
@@ -30,14 +38,6 @@
 		<header id="masthead" class="site-header clearfix" role="banner">
 
 			<div class="header-main container clearfix">
-
-				<div id="logo" class="site-branding clearfix">
-
-					<?php maxwell_site_logo(); ?>
-					<?php maxwell_site_title(); ?>
-					<?php maxwell_site_description(); ?>
-
-				</div><!-- .site-branding -->
 
 				<div class="header-widgets clearfix">
 
