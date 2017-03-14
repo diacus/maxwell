@@ -303,6 +303,7 @@ if ( ! function_exists( 'maxwell_post_navigation' ) ) :
 			the_post_navigation( array(
 				'prev_text' => '<span class="screen-reader-text">' . esc_html_x( 'Previous Post:', 'post navigation', 'maxwell' ) . '</span>%title',
 				'next_text' => '<span class="screen-reader-text">' . esc_html_x( 'Next Post:', 'post navigation', 'maxwell' ) . '</span>%title',
+				'in_same_term' => true,
 			) );
 
 		}
